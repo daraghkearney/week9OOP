@@ -38,6 +38,14 @@ public class Music {
     }
     public void setLabel(String label) {this.Label = label;}
 
+    public double getPrice() {
+        return Price;
+    }
+
+    public void setPrice(double price) {
+        this.Price = price;
+    }
+
     @Override
     public String toString() {return Description + " by" + Artist;}
 
